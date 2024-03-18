@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body, h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+/* Define color variables for light mode */
+:root {
+    --text-color: #000000;
+    --background-color: #ffffff;
+    --link-color: #0cb634;
+}
+
+/* Override color variables for dark mode */
+body.dark-mode {
+    --text-color: #ffffff;
+    --background-color: #000000;
+    --link-color: #0088cc;
+}
+
+/* Use color variables in your CSS */
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+a {
+    color: var(--link-color);
+}
+header {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 20px;
+    text-align: center;
+}
+/* a {
+    color: #00438f; /* Replace with the color you choose */
+/* } */
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+main {
+    padding: 20px;
+    width: 80%; /* Adjust this value as needed */
+    margin: 0 auto; /* This centers the main content */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 10px;
+}
+
+.grid-numlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.text {
+    flex: 1;
+}
+dl {
+    padding: 0;
+}
+
+dt {
+    float: left;
+    clear: left;
+    width: 30px; /* Adjust this value as needed */
+    text-align: right;
+    margin-right: 3px; /* Adjust this value as needed */
+}
+
+dd {
+    margin: 0 0 0 30px; /* Adjust the 40px value as needed */
+    padding: 0;
+}
+header h1 {
+    margin-bottom: 0.01em; /* Adjust this value as needed */
+    line-height: 1.5;
+}
+
+header h3 {
+    margin-top: 0.01em; /* Adjust this value as needed */
+    margin-bottom: 0.2em; /* Adjust this value as needed */
+    line-height: 1.1;
+}
+
+header h4 {
+    margin-top: 0.2em; /* Adjust this value as needed */
+}
+section h2 {
+    margin-bottom: 0.1em; /* Adjust this value as needed */
+}
+section h4 {
+    margin-top: 0.1em; /* Adjust this value as needed */
+}
+/* Style the switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Add other dark mode styles as needed */
+
+main {
+    padding: 20px;
+    width: 100%; /* Make it full width by default */
+    margin: 0 auto; /* This centers the main content */
+}
+
+/* This media query applies when the viewport is at least 600px wide */
+@media (min-width: 600px) {
+    main {
+        width: 80%; /* Reduce the width and add some margin when there's enough space */
+    }
+}
+#project-notes {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light grey background */
+    margin-bottom: 2rem;
+}
+
+/* #project-notes b {
+    font-size: 1.5em; /* Make the title larger */
+/* } */
+
+.grid-numlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.number, .text {
+    display: inline-block;
+}

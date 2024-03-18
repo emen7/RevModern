@@ -1,0 +1,233 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin: auto;
+  font-stretch: expanded;
+  line-height: 1.6;
+  max-width: 640px;
+  hyphens: auto;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+.article {
+  display: block;
+}
+.title {
+  font-size: 1.2rem;
+  color: #706e6e;
+  padding-top: 0.5rem;
+  font-weight: 500;
+  /* text-indent: -0.7rem; */
+}
+.paper {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #4998f1;
+  margin-bottom: .1rem;
+
+}
+.p-title {
+  font-size: 1.6rem;
+  color: #015ec9;
+  margin-bottom: 1rem;
+  margin-top: 0.1rem;
+  line-height: 1.1;
+  
+}
+
+.prev {
+  font-size: small;
+text-align: right;
+padding-right: 0rem;
+padding-top: 0.8rem;
+
+}
+.part-margin {
+  font-size:larger;
+    line-height: 1;
+
+}
+.next {
+  font-size: small;
+  text-align: right;
+  padding-right: 1rem;
+  padding-top: 0.8rem;
+
+}
+.grid-c3-r1 {
+  display: grid;
+  grid-template-columns:12rem 1fr 5rem;
+  /* grid-template-rows: 1fr; */
+  grid-column-gap: 4px;
+  margin-bottom: 1rem;
+}
+section {
+    display: block;
+    margin-bottom: -1.2rem;
+}
+.ctr {
+  text-align: center;
+}
+p {
+  /* font-size: medium; */
+  margin: 0;
+  margin-bottom: 1rem;
+  text-indent: 1.5rem;
+}
+.sansindent {
+  margin: 0;
+  margin-bottom: 1rem;
+  text-indent: 0rem;
+}
+h1 {
+  font-size: 1.8rem;
+  color: #0153af;
+  margin-bottom: 7px;
+}
+h2 {
+  font-size: 1.4rem;
+  color: #0153af;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+h3 {
+  font-size: 1.2;
+  margin-bottom: 0.5rem;
+  /* padding-top: rem;
+  text-indent: -0.5rem; */
+  color: #0153af;
+}
+b {
+  font-weight: 600;
+}
+em {
+  font-style: italic;
+  font-weight: 600;
+}
+hr {
+  margin-top: -.7em;
+}
+/* a {
+  color:#023492;
+  text-decoration-color: darkmagenta;
+  
+} */
+a {
+  text-decoration: none;   /* remove underline */
+  color: rgb(1, 48, 177);  /*  set link color */
+} 
+
+a:hover {
+  color: rgb(0, 119, 255);
+  text-decoration: underline;
+} /* set link color on hover */
+.book {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 2rem;
+  margin-bottom: 0rem;
+  padding-top: 1rem;
+  color: #0153af;
+}
+.fnt-author {
+  font-size: smaller;
+}
+.grid-numlist {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.grid-numlist-ind {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  grid-column-gap: 9px;
+  margin-top: -.7rem;
+  margin-bottom: .5rem;
+  margin-left: 1.5rem;
+}
+.number {
+  text-align: right;
+  align-self: start;
+  margin-bottom: 0.3rem;
+}
+.text {
+  align-self: end;
+  margin-bottom: 0.3rem;
+  text-indent: 0rem;
+}
+.text-multi-p {
+  align-self: baseline;
+  margin-bottom: 6px;
+  text-indent: 0rem;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.caps {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+em:lang(ar) {
+  font-style: normal;
+  font-weight: bold;
+}
+/* w3schools Dropdown code */
+/* .grid-dropbutton {
+  display: grid;
+  grid-template-rows: 2rem;
+  grid-template-columns: 100px 1fr;
+  grid-column-gap: 1px;
+  margin-bottom: 1rem;
+}
+
+.dropbtn {
+  background-color: #ffffff;
+  color: darkslateblue;
+  padding: 4px;
+  font-size: large;
+  border-width: 1px;
+  border-color: darkslategray;
+  cursor: pointer;
+  /* text-align: left; 
+}
+
+.dropdown {
+  position: relative;
+  /* display: inline-block; 
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dbdbdb;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 4px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #c9e5f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+} */
+/* for FM papers */
+.num-table {
+  text-align: right;
+  vertical-align: top;
+}
