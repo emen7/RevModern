@@ -1,2 +1,3 @@
 # RevModern
-Update of Modern Theme for UB
+Very preliminary code from a non-pro.
+For testing and learning.
